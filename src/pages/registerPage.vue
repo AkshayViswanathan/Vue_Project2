@@ -83,7 +83,7 @@ const [checkbox, checkboxAtt] = defineField('checkbox');
 
 const onSubmit= handleSubmit((values)=>{
     localStorage.setItem('data', JSON.stringify(values))
-    router.push("/homepage")
+    router.push("/login")
     
     alert("Form Submitted")
 })
@@ -103,7 +103,7 @@ const onSubmit= handleSubmit((values)=>{
 /* Style form elements */
 Form {
   margin-bottom: 5px  ;
-  /* background-image: url("https://www.shutterstock.com/image-vector/mini-hearts-wallpaper-260nw-1020922054.jpg"); */
+  
     
 }
 
@@ -118,7 +118,7 @@ label {
   margin-bottom: 10px;
   border: 1px solid #c7c7c7;
   border-radius: 5px;
-  box-shadow: 8px 6px 4px 2px #40404020;
+  box-shadow: 8px 6px 4px 2px #4040402e;
 }
 
 button {

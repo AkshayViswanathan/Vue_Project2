@@ -3,11 +3,7 @@
         <div class="logo">
             <h1>Welcome user</h1>
         </div>
-        <!-- <div class="links-sec" >
-            <ul v-for="link in links" :key="link.id" >
-                <li>{{ link.name }}</li>
-            </ul> -->
-        <!-- </div> -->
+   
         <div >
             <div class="signout">
                <router-link to="/login" class="login" >SignOut</router-link>
@@ -18,11 +14,7 @@
 </template>
 
 <script setup>
-// const links = [
-//     {id:1, name:"Home"},
-//     {id:2, name:"About"},
-//     {id:3, name:"Contact"},
-// ]
+
 
 </script>
 
